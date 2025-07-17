@@ -37,6 +37,18 @@ void example3() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 void update_X_ptr(Point* p, int x) {
 	p->x = x;
 }
@@ -57,10 +69,14 @@ void example5() {
 	printf("p->x: %d, p2->x: %d\n", p->x, p2->x);
 }
 
+
+
+
+
 int main() {
-	example1();
-	example2();
-	example3();
-	example4();
+//	example1();
+//	example2();
+//	example3();
+//	example4();
 	example5();
 }
